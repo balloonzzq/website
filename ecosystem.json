@@ -1,0 +1,28 @@
+{
+  "apps": [
+    {
+      "name": "Website",
+      "script": "app.js",
+      "env": {
+        "COMMON_VARIABLE": "true"
+      },
+      "env_production": {
+        "NODE_ENV": "production"
+      }
+    }
+  ],
+  "deploy": {
+    "production": {
+      "user": "root",
+      "host": ["39.108.217.94"],
+      "port": "8081",
+      "ref": "origin/master",
+      "repo": "https://github.com/balloonzzq/UI-kit.git",
+      "path": "/www/website/production",
+      "ssh_options": "StrictHostKeyChecking=no",
+      "env": {
+        "NODE_ENV": "production"
+      } 
+    }
+  }
+}
