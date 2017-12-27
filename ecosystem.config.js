@@ -28,8 +28,7 @@ module.exports = {
       host : '39.108.217.94',
       ref  : 'origin/master',
       repo : 'https://github.com/balloonzzq/UI-kit.git',
-      path : '/www/website/production',
-      'post-deploy' : 'npm install && pm2 reload ecosystem.config.js --env production'
+      path : '/www/website/production'
     }
   }
 };
