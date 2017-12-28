@@ -9,7 +9,6 @@ module.exports = {
     {
       name      : 'Website',
       script    : 'app.js',
-      cwd: "/",
       env: {
         COMMON_VARIABLE: 'true'
       },
