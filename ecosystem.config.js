@@ -27,7 +27,7 @@ module.exports = {
       user : 'root',
       host : '39.108.217.94',
       ref  : 'origin/master',
-      repo : 'https://github.com/balloonzzq/UI-kit.git',
+      repo : 'https://github.com/balloonzzq/website.git',
       path : '/www/website/production'
     }
   }
